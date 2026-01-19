@@ -40,3 +40,12 @@ class InputEngine:
         pyautogui.press(key)
         time.sleep(random.uniform(0.05, 0.15))
         logger.debug(f"Pressed key: {key}")
+
+    def type_text(self, text):
+        """
+        Type text with random delays between keystrokes.
+        """
+        for char in text:
+            pyautogui.write(char)
+            time.sleep(random.uniform(0.05, 0.2)) # Random typing speed
+        logger.debug(f"Typed text: {text}")
