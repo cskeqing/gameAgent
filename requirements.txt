@@ -1,0 +1,11 @@
+PySide6
+ultralytics
+paddleocr
+paddlepaddle
+dxcam; sys_platform == 'win32'
+mss
+pyautogui
+pyyaml
+loguru
+litellm
+openai

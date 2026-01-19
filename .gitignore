@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Logs and Databases
+logs/
+*.log
+*.db
+*.sqlite
+
+# Models (Download via script instead)
+models/*.pt
+models/*.onnx
+*.pt
+*.onnx
+
+# IDEs
+.idea/
+.vscode/
+.trae/
+
+# OS
+.DS_Store
+Thumbs.db
